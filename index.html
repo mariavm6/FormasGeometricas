@@ -1,0 +1,49 @@
+<!DOCTYPE>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+             <meta name="author" content="Maria Villalobos Martin y Gema de la Fuente Romero" />
+            <title>FORMAS</title>
+            <link rel="stylesheet" href="css/index.css"/>
+        </head>
+        <body>
+            <!-- CABECERA -->
+            <header><h1>Formas geométricas</h1></header>
+            <!-- CUERPO DE LA PAGINA -->
+            <main>
+                <h4>Arrastra una forma de la izquierda hasta la correspondiente de la derecha.</h4>
+                <nav>
+                <button class="button" onclick="volverAJugar()">Volver a jugar</button>
+            <!-- MENU -->
+            </nav>
+                   <section>
+                    <!-- COLUMNA IZQUIERDA -->
+                    <article id="dosColumnas">
+                       <div><div class="cuadrado"><img src="image/cuadrado.png"></div></div>
+                        <div><div class="circulo"><img src="image/circulo.png"></div></div>
+                        <div><div class="estrella"><img src="image/estrella.png"></div></div>
+                        <div><div class="triangulo"><img src="image/triangulo.png"></div></div>
+                    </article>
+                    <!-- ESPACIO CENTRAL -->
+                    <article><div class="sonido"></div></article>
+                    <!-- COLUMNA DERECHA -->
+                    <article id="dosColumnas">
+                        <div class="cuadrado-borde"><img id="recuadro-cuadrado" alt="cuadrado" src="image/box-cuadrada.png"></div>
+                        <div class="circulo-borde"><img id="recuadro-circulo" alt="circulo" src="image/box-circulo.png"></div>
+                        <div class="triangulo-borde"><img id="recuadro-triangulo" alt="triangulo" src="image/box-triangulo.png"></div>
+                        <div class="estrella-borde"><img id="recuadro-estrella" alt="estrella" src="image/box-estrella.png"></div>
+                    </article>
+                </section>
+            </main>
+            <!-- ENLACE A LIBRERIAS JQUERY -->
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+            <!-- ENLACE AL ARCHIVO LOCAL DE NUESTRO JQUERY -->
+            <script  src="js/index2.js"></script>
+            <!-- ENLACE A LAS LIBRERIAS DE JQUERY EN LOCAL, PERO NO FUNCIONA -->
+            <!--<script src="js/jquery-3.2.1.js"></script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery-ui.min.js"></script>-->     
+        </body>
+    </html>
+
